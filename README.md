@@ -1,28 +1,38 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Smartphone Usage and Sleep Quality: Insights and Predictions with Additional Validation Using Smartwatch Data is a data-driven study that examines how daily smartphone usage patterns influence sleep quality. The project combines self-reported data (such as screen time, bedtime, and perceived sleep quality) with objective smartwatch sleep metrics to create a hybrid, research-grade dataset. Using statistical analysis, data visualization, and machine learning models, the study identifies key relationships between phone usage habits and sleep outcomes, predicts sleep quality levels, and validates findings using smartwatch data for improved accuracy and reliability.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Smartphone Usage and Sleep Quality: Insights and Predictions with Additional Validation Using Smartwatch Data is a comprehensive data science project aimed at understanding the relationship between smartphone usage habits and sleep quality among individuals. In today’s digital era, excessive smartphone use—especially before bedtime—has raised concerns about its impact on sleep duration, sleep efficiency, and overall sleep health. This project seeks to scientifically analyze these effects using both subjective and objective data sources.
+
+The study involves collecting self-reported data from participants through structured online forms, including variables such as daily smartphone screen time, phone usage before sleep, bedtime routines, wake-up time, perceived sleep quality, and daytime tiredness. To improve the reliability and accuracy of the analysis, this data is validated and enhanced with smartwatch-based sleep data, such as total sleep duration, deep sleep time, light sleep time, number of awakenings, and overall sleep efficiency. The combination of these two data sources creates a hybrid, research-grade dataset that reduces bias and strengthens the findings.
+
+Once the data is collected, extensive data preprocessing and cleaning are performed to handle missing values, remove inconsistencies, and standardize measurements (for example, converting sleep duration into decimal hours). Exploratory Data Analysis (EDA) techniques, including visualizations and statistical summaries, are then applied to identify patterns and correlations between smartphone usage behavior and various sleep parameters. This helps in understanding trends such as how increased screen time or late-night phone usage affects sleep quality and sleep fragmentation.
+
+Following the exploratory phase, machine learning models are developed to predict sleep quality levels based on smartphone usage features. Models such as linear regression, decision trees, or classification algorithms are used to estimate outcomes like sleep quality rating or sleep efficiency. The performance of these models is evaluated using appropriate metrics, and predictions are cross-checked with smartwatch data to ensure consistency and validity.
+
+The final outcome of the project provides actionable insights into how smartphone habits influence sleep health and demonstrates how combining subjective survey data with objective wearable data leads to more accurate and trustworthy conclusions. This project has practical applications in health analytics, behavioral research, and personalized wellness recommendations, and it highlights the importance of responsible smartphone usage for improving sleep quality
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Uses a hybrid dataset combining self-reported smartphone usage data and smartwatch-based sleep metrics for higher accuracy.
+- Implements machine learning models to analyze patterns and predict sleep quality.
+- Supports data validation using wearable device data to reduce bias and improve reliability.
+- Performs exploratory data analysis (EDA) with statistical and visual insights.
+- Ensures high scalability for adding more users and extended data collection over time.
+- Optimized for low time complexity through efficient data preprocessing and model training.
+- Enables future deployment as a framework-based application (web or dashboard).
+- Provides research-grade insights suitable for academic and healthcare analytics.
+- Allows easy feature expansion, such as additional sleep or health parameters from smartwatches.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Operating System: Requires a 64-bit operating system such as Windows 10/11 or Ubuntu for efficient data processing and model execution.
+* Development Environment: Python 3.7 or later is required for data analysis, machine learning model development, and evaluation.
+* Machine Learning Frameworks: Utilizes scikit-learn for traditional machine learning models and TensorFlow/Keras for advanced predictive modeling.
+* Data Analysis Libraries: Includes NumPy and Pandas for data handling, preprocessing, and transformation.
+* Data Visualization Tools: Matplotlib and Seaborn are used for exploratory data analysis and graphical representation of insights.
+* Smartwatch Data Integration: Supports data inputs from wearable devices (e.g., CSV/JSON formats) for sleep metrics validation.
+* IDE: Visual Studio Code (VSCode) is used as the Integrated Development Environment for coding, debugging, and package management.
+* Version Control: Git is used for source code management, collaboration, and tracking project changes.
+* Additional Dependencies: Includes Jupyter Notebook, SciPy, and Joblib for experimentation, statistical analysis, and model persistence.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
