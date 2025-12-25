@@ -35,34 +35,38 @@ The final outcome of the project provides actionable insights into how smartphon
 * Additional Dependencies: Includes Jupyter Notebook, SciPy, and Joblib for experimentation, statistical analysis, and model persistence.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="555" height="324" alt="image" src="https://github.com/user-attachments/assets/6ef4249a-d474-4af7-bb50-6389c348646c" />
+
 
 
 ## Output
-
-<!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="509" height="358" alt="image" src="https://github.com/user-attachments/assets/8e1f4c7a-536b-4979-8864-e079ca6a05d9" />
+Detection Accuracy: 48.7%
+
+
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="480" height="375" alt="image" src="https://github.com/user-attachments/assets/0ca558d5-51d7-4eb8-b103-4e6bc548dfae" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
+Detection Accuracy: 67%
+
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The experimental results demonstrate that smartphone usage patterns exhibit a measurable, though moderate, relationship with sleep-related outcomes. For subjective sleep quality prediction, the Random Forest model achieved a mean cross-validation accuracy of approximately 48%, while the Artificial Neural Network (ANN) improved performance to around 54%. This indicates that deep learning models are more effective in capturing the non-linear and complex behavioral interactions between screen time, social media usage, and phone unlock frequency. However, the moderate accuracy also highlights the inherent limitations of relying solely on self-reported sleep quality, which is influenced by individual perception and recall bias.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+When models were trained on the objective sleep duration target, performance showed a clearer and more stable pattern. Random Forest achieved higher accuracy compared to subjective sleep quality prediction, and ANN demonstrated competitive performance across folds, exceeding random chance for three-class classification. These results confirm that objective sleep metrics are more predictable from behavioral data than subjective assessments, reinforcing the importance of measurable sleep indicators in sleep-health research.
+
+The impact of this work lies in its methodological contribution rather than raw predictive accuracy. By systematically identifying issues such as data leakage, class balance, and subjectivity in labels, the proposed framework establishes a reliable and research-grade approach to behavioral sleep analysis. The clear contrast between subjective and objective targets strongly supports the integration of smartwatch-derived physiological data for validation. This hybrid modeling and validation strategy enhances scientific reliability and positions the system as a scalable, cost-effective solution for digital wellness research, personalized health monitoring, and future sleep-aware interventions.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.K. Demirci, M. Akgönül, and A. Akpinar, “Relationship of smartphone use severity with sleep quality, depression, and anxiety in university students,” Journal of Behavioral Addictions, vol. 4, no. 2, pp. 85–92, 2015.
+2.S. Abdullah, M. Matthews, E. Frank, G. Doherty, G. Gay, and T. Choudhury, “Automatic detection of sleep duration and quality using wearable and smartphone data,” Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, vol. 1, no. 3, pp. 1–22, 2016.
+
 
 
 
